@@ -4,10 +4,10 @@ const app = new Vue({
     data: {
         dischi: [],
     },
-    mounted() {
+    created() {
 
-        axios.get('').then(response => {
-            this.dischi = response.data
+        axios.get('http://localhost/php-ajax-dischi/server.php').then(response => {
+            this.dischi = response.data;
         });
 
     }

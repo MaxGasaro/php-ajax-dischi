@@ -13,9 +13,11 @@
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container flex">
             <div class="header-left">
-                
+                <div class="img">
+                    <img src="./Spotify_App_Logo.svg.png" alt="logo spotify">
+                </div>
             </div>
             <div class="header-right">
 
