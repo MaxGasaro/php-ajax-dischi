@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+header {
+    height: 100px;
+    background-color: #1e2d3b;
+}
+
+main {
+    height: calc(100% - 100px);
+    background-color: #2e3a46;
+}
